@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA019651258BE9A300ACFFCE /* CypressHomePageButton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA019650258BE9A300ACFFCE /* CypressHomePageButton.jpg */; };
+		BA019654258BE9B400ACFFCE /* NasturtiumHomePageButton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA019653258BE9B400ACFFCE /* NasturtiumHomePageButton.jpg */; };
+		BA019657258C0CB200ACFFCE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA019656258C0CB200ACFFCE /* MainView.swift */; };
+		BA4A8C122582BA99002D605F /* IntroToNorCal.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BA4A8C112582BA99002D605F /* IntroToNorCal.mp4 */; };
+		BA64BEBB258D303200AE84B3 /* Cypress.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BA64BEBA258D303200AE84B3 /* Cypress.mp4 */; };
+		BA64BEBE258D339E00AE84B3 /* CypressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64BEBD258D339E00AE84B3 /* CypressView.swift */; };
+		BA64BEC1258D347300AE84B3 /* NasturtiumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64BEC0258D347300AE84B3 /* NasturtiumView.swift */; };
+		BA64BEC4258D34B000AE84B3 /* Nasturtium.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BA64BEC3258D34B000AE84B3 /* Nasturtium.mp4 */; };
+		BA951B662582986200A34E06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA951B652582986200A34E06 /* AppDelegate.swift */; };
+		BA951B682582986200A34E06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA951B672582986200A34E06 /* SceneDelegate.swift */; };
+		BA951B6A2582986200A34E06 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA951B692582986200A34E06 /* IntroView.swift */; };
+		BA951B6C2582986300A34E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA951B6B2582986300A34E06 /* Assets.xcassets */; };
+		BA951B6F2582986300A34E06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA951B6E2582986300A34E06 /* Preview Assets.xcassets */; };
+		BA951B722582986300A34E06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA951B702582986300A34E06 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA019650258BE9A300ACFFCE /* CypressHomePageButton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = CypressHomePageButton.jpg; path = Cypress/Sketches/CypressHomePageButton.jpg; sourceTree = SOURCE_ROOT; };
+		BA019653258BE9B400ACFFCE /* NasturtiumHomePageButton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = NasturtiumHomePageButton.jpg; path = Nasturtium/Sketches/NasturtiumHomePageButton.jpg; sourceTree = SOURCE_ROOT; };
+		BA019656258C0CB200ACFFCE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		BA4A8C112582BA99002D605F /* IntroToNorCal.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = IntroToNorCal.mp4; sourceTree = SOURCE_ROOT; };
+		BA64BEBA258D303200AE84B3 /* Cypress.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cypress.mp4; sourceTree = SOURCE_ROOT; };
+		BA64BEBD258D339E00AE84B3 /* CypressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CypressView.swift; sourceTree = "<group>"; };
+		BA64BEC0258D347300AE84B3 /* NasturtiumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasturtiumView.swift; sourceTree = "<group>"; };
+		BA64BEC3258D34B000AE84B3 /* Nasturtium.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nasturtium.mp4; sourceTree = SOURCE_ROOT; };
+		BA951B622582986200A34E06 /* THE FIELD BOOK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "THE FIELD BOOK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA951B652582986200A34E06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA951B672582986200A34E06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BA951B692582986200A34E06 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		BA951B6B2582986300A34E06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA951B6E2582986300A34E06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA951B712582986300A34E06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA951B732582986300A34E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA951B5F2582986200A34E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA951B592582986200A34E06 = {
+			isa = PBXGroup;
+			children = (
+				BA951B642582986200A34E06 /* THE FIELD BOOK */,
+				BA951B632582986200A34E06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA951B632582986200A34E06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA951B622582986200A34E06 /* THE FIELD BOOK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA951B642582986200A34E06 /* THE FIELD BOOK */ = {
+			isa = PBXGroup;
+			children = (
+				BA64BEC3258D34B000AE84B3 /* Nasturtium.mp4 */,
+				BA64BEBA258D303200AE84B3 /* Cypress.mp4 */,
+				BA019650258BE9A300ACFFCE /* CypressHomePageButton.jpg */,
+				BA019653258BE9B400ACFFCE /* NasturtiumHomePageButton.jpg */,
+				BA4A8C112582BA99002D605F /* IntroToNorCal.mp4 */,
+				BA951B652582986200A34E06 /* AppDelegate.swift */,
+				BA951B672582986200A34E06 /* SceneDelegate.swift */,
+				BA951B692582986200A34E06 /* IntroView.swift */,
+				BA951B6B2582986300A34E06 /* Assets.xcassets */,
+				BA951B702582986300A34E06 /* LaunchScreen.storyboard */,
+				BA951B732582986300A34E06 /* Info.plist */,
+				BA951B6D2582986300A34E06 /* Preview Content */,
+				BA019656258C0CB200ACFFCE /* MainView.swift */,
+				BA64BEBD258D339E00AE84B3 /* CypressView.swift */,
+				BA64BEC0258D347300AE84B3 /* NasturtiumView.swift */,
+			);
+			path = "THE FIELD BOOK";
+			sourceTree = "<group>";
+		};
+		BA951B6D2582986300A34E06 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA951B6E2582986300A34E06 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA951B612582986200A34E06 /* THE FIELD BOOK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA951B762582986300A34E06 /* Build configuration list for PBXNativeTarget "THE FIELD BOOK" */;
+			buildPhases = (
+				BA951B5E2582986200A34E06 /* Sources */,
+				BA951B5F2582986200A34E06 /* Frameworks */,
+				BA951B602582986200A34E06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "THE FIELD BOOK";
+			productName = "THE FIELD BOOK";
+			productReference = BA951B622582986200A34E06 /* THE FIELD BOOK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA951B5A2582986200A34E06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					BA951B612582986200A34E06 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = BA951B5D2582986200A34E06 /* Build configuration list for PBXProject "THE FIELD BOOK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA951B592582986200A34E06;
+			productRefGroup = BA951B632582986200A34E06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA951B612582986200A34E06 /* THE FIELD BOOK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA951B602582986200A34E06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA951B722582986300A34E06 /* LaunchScreen.storyboard in Resources */,
+				BA64BEC4258D34B000AE84B3 /* Nasturtium.mp4 in Resources */,
+				BA019654258BE9B400ACFFCE /* NasturtiumHomePageButton.jpg in Resources */,
+				BA951B6F2582986300A34E06 /* Preview Assets.xcassets in Resources */,
+				BA4A8C122582BA99002D605F /* IntroToNorCal.mp4 in Resources */,
+				BA019651258BE9A300ACFFCE /* CypressHomePageButton.jpg in Resources */,
+				BA64BEBB258D303200AE84B3 /* Cypress.mp4 in Resources */,
+				BA951B6C2582986300A34E06 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA951B5E2582986200A34E06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA64BEBE258D339E00AE84B3 /* CypressView.swift in Sources */,
+				BA951B662582986200A34E06 /* AppDelegate.swift in Sources */,
+				BA019657258C0CB200ACFFCE /* MainView.swift in Sources */,
+				BA951B682582986200A34E06 /* SceneDelegate.swift in Sources */,
+				BA64BEC1258D347300AE84B3 /* NasturtiumView.swift in Sources */,
+				BA951B6A2582986200A34E06 /* IntroView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA951B702582986300A34E06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA951B712582986300A34E06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA951B742582986300A34E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA951B752582986300A34E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA951B772582986300A34E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"THE FIELD BOOK/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "THE FIELD BOOK/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sensiblenarcissist.THE-FIELD-BOOK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA951B782582986300A34E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"THE FIELD BOOK/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "THE FIELD BOOK/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sensiblenarcissist.THE-FIELD-BOOK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA951B5D2582986200A34E06 /* Build configuration list for PBXProject "THE FIELD BOOK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA951B742582986300A34E06 /* Debug */,
+				BA951B752582986300A34E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA951B762582986300A34E06 /* Build configuration list for PBXNativeTarget "THE FIELD BOOK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA951B772582986300A34E06 /* Debug */,
+				BA951B782582986300A34E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA951B5A2582986200A34E06 /* Project object */;
+}
