@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA019651258BE9A300ACFFCE /* CypressHomePageButton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA019650258BE9A300ACFFCE /* CypressHomePageButton.jpg */; };
-		BA019654258BE9B400ACFFCE /* NasturtiumHomePageButton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA019653258BE9B400ACFFCE /* NasturtiumHomePageButton.jpg */; };
 		BA019657258C0CB200ACFFCE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA019656258C0CB200ACFFCE /* MainView.swift */; };
+		BA0D54BF258D5BE7006CFFE9 /* CypressHomePageButton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA0D54BE258D5BE7006CFFE9 /* CypressHomePageButton.jpg */; };
+		BA0D54C2258D5BF5006CFFE9 /* NasturtiumHomePageButton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA0D54C1258D5BF5006CFFE9 /* NasturtiumHomePageButton.jpg */; };
 		BA4A8C122582BA99002D605F /* IntroToNorCal.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BA4A8C112582BA99002D605F /* IntroToNorCal.mp4 */; };
 		BA64BEBB258D303200AE84B3 /* Cypress.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BA64BEBA258D303200AE84B3 /* Cypress.mp4 */; };
 		BA64BEBE258D339E00AE84B3 /* CypressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64BEBD258D339E00AE84B3 /* CypressView.swift */; };
@@ -24,9 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BA019650258BE9A300ACFFCE /* CypressHomePageButton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = CypressHomePageButton.jpg; path = Cypress/Sketches/CypressHomePageButton.jpg; sourceTree = SOURCE_ROOT; };
-		BA019653258BE9B400ACFFCE /* NasturtiumHomePageButton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = NasturtiumHomePageButton.jpg; path = Nasturtium/Sketches/NasturtiumHomePageButton.jpg; sourceTree = SOURCE_ROOT; };
 		BA019656258C0CB200ACFFCE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		BA0D54BE258D5BE7006CFFE9 /* CypressHomePageButton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CypressHomePageButton.jpg; sourceTree = SOURCE_ROOT; };
+		BA0D54C1258D5BF5006CFFE9 /* NasturtiumHomePageButton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NasturtiumHomePageButton.jpg; sourceTree = SOURCE_ROOT; };
 		BA4A8C112582BA99002D605F /* IntroToNorCal.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = IntroToNorCal.mp4; sourceTree = SOURCE_ROOT; };
 		BA64BEBA258D303200AE84B3 /* Cypress.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cypress.mp4; sourceTree = SOURCE_ROOT; };
 		BA64BEBD258D339E00AE84B3 /* CypressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CypressView.swift; sourceTree = "<group>"; };
@@ -74,8 +74,8 @@
 			children = (
 				BA64BEC3258D34B000AE84B3 /* Nasturtium.mp4 */,
 				BA64BEBA258D303200AE84B3 /* Cypress.mp4 */,
-				BA019650258BE9A300ACFFCE /* CypressHomePageButton.jpg */,
-				BA019653258BE9B400ACFFCE /* NasturtiumHomePageButton.jpg */,
+				BA0D54BE258D5BE7006CFFE9 /* CypressHomePageButton.jpg */,
+				BA0D54C1258D5BF5006CFFE9 /* NasturtiumHomePageButton.jpg */,
 				BA4A8C112582BA99002D605F /* IntroToNorCal.mp4 */,
 				BA951B652582986200A34E06 /* AppDelegate.swift */,
 				BA951B672582986200A34E06 /* SceneDelegate.swift */,
@@ -157,11 +157,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA951B722582986300A34E06 /* LaunchScreen.storyboard in Resources */,
+				BA0D54C2258D5BF5006CFFE9 /* NasturtiumHomePageButton.jpg in Resources */,
 				BA64BEC4258D34B000AE84B3 /* Nasturtium.mp4 in Resources */,
-				BA019654258BE9B400ACFFCE /* NasturtiumHomePageButton.jpg in Resources */,
 				BA951B6F2582986300A34E06 /* Preview Assets.xcassets in Resources */,
+				BA0D54BF258D5BE7006CFFE9 /* CypressHomePageButton.jpg in Resources */,
 				BA4A8C122582BA99002D605F /* IntroToNorCal.mp4 in Resources */,
-				BA019651258BE9A300ACFFCE /* CypressHomePageButton.jpg in Resources */,
 				BA64BEBB258D303200AE84B3 /* Cypress.mp4 in Resources */,
 				BA951B6C2582986300A34E06 /* Assets.xcassets in Resources */,
 			);
